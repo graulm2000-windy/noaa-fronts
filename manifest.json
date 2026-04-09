@@ -1,0 +1,12 @@
+{
+  "name": "noaa-fronts",
+  "version": "1.0.0",
+  "title": "NOAA Fronts",
+  "icon": "🌦️",
+  "description": "Surface Analysis & Forecasts from NOAA/WPC",
+  "author": "Raul",
+  "files": {
+    "html": "plugin.html",
+    "js": "plugin.js"
+  }
+}

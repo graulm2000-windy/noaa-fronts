@@ -1,0 +1,41 @@
+<div class="plugin-title">NOAA Fronts</div>
+<div class="plugin-subtitle">Surface Analysis & Forecasts</div>
+
+<div class="button-row">
+    <button id="btnCurrent">Current</button>
+    <button id="btn24">24h</button>
+    <button id="btn48">48h</button>
+    <button id="btn72">72h</button>
+    <button id="btnUSA">USA</button>
+</div>
+
+<style>
+    .plugin-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 4px;
+    }
+
+    .plugin-subtitle {
+        font-size: 13px;
+        opacity: 0.7;
+        margin-bottom: 12px;
+    }
+
+    .button-row button {
+        width: 100%;
+        margin-bottom: 6px;
+        padding: 6px;
+        border-radius: 4px;
+        border: 1px solid #444;
+        background: #222;
+        color: #eee;
+        cursor: pointer;
+    }
+
+    .button-row button.active-btn {
+        background: #4a90e2;
+        color: white;
+        border-color: #4a90e2;
+    }
+</style>
