@@ -1,0 +1,15 @@
+name: publish-plugin
+
+on:
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Publish Plugin
+        uses: windycom/publish-windy-plugin@v1
+        with:
+          api-key: ${{ secrets.WINDY_API_KEY }}
